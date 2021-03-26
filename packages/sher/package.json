@@ -1,0 +1,30 @@
+{
+  "name": "@geut/brand-sher",
+  "description": "A Set of Small React Components of GEUT SHER as a brand.",
+  "version": "1.0.0",
+  "main": "dist/es/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist/es --source-maps inline"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "browserslist": [
+    "> 5%"
+  ]
+}
