@@ -9,6 +9,9 @@
   "scripts": {
     "build": "babel ./src --out-dir ./dist/es --source-maps inline"
   },
+  "dependencies": {
+    "@geut/brand-colors": "^1.0.1"
+  },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

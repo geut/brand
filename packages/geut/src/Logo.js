@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { blue, green } from './colors'
+import { blue, green } from '@geut/brand-colors'
 
 export function Logo (props) {
   return (
