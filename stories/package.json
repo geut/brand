@@ -1,7 +1,7 @@
 {
   "name": "stories",
   "description": "Brand Stories",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "npm run storybook",
@@ -9,17 +9,17 @@
     "storybook:export": "build-storybook -o ./out"
   },
   "devDependencies": {
-    "@geut/brand": "^1.0.1",
-    "@geut/brand-colors": "^1.0.1",
-    "@geut/brand-sher": "^1.0.1",
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.12.17",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
-    "@storybook/addons": "^6.1.21",
+    "@geut/brand": "^1.0.2",
+    "@geut/brand-colors": "^1.0.2",
+    "@geut/brand-sher": "^1.0.2",
     "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addons": "^6.1.21",
     "@storybook/react": "^6.1.21",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
