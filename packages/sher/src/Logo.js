@@ -8,7 +8,7 @@ export function Logo ({ mono = false, ...props }) {
     <svg {...props} viewBox='0 0 311 457' version='1.1' xmlns='http://www.w3.org/2000/svg'>
       <g transform='matrix(1,0,0,1,-70,-53)' 
       fillRule='evenodd'
-      strokLinecap='round'
+      strokeLinecap='round'
       strokeLinejoin='round'
       strokeMiterlimit={1.5}
       >
