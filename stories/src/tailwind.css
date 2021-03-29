@@ -1,0 +1,7 @@
+
+/* https://fonts.google.com/specimen/Bitter?category=Serif,Sans+Serif&sort=popularity&preview.size=20&selection.family=Bitter:ital,wght@0,300;0,400;0,600;0,700;1,400|Lato:ital,wght@0,400;0,700;0,900;1,900&sidebar.open=true&query=Bitter&preview.text_type=custom */
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Lato:ital,wght@0,400;0,700;0,900;1,900&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
