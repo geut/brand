@@ -1,7 +1,7 @@
 {
   "name": "@geut/brand-colors",
   "description": "The GEUT brand colors.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/es/index.js",
   "files": [
     "dist"
