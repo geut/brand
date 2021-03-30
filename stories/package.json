@@ -1,7 +1,7 @@
 {
   "name": "stories",
   "description": "Brand Stories",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "npm run storybook",
@@ -15,9 +15,9 @@
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
-    "@geut/brand": "^1.0.2",
-    "@geut/brand-colors": "^1.0.2",
-    "@geut/brand-sher": "^1.0.2",
+    "@geut/brand": "^1.1.0",
+    "@geut/brand-colors": "^1.1.0",
+    "@geut/brand-sher": "^1.1.0",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addons": "^6.1.21",
     "@storybook/react": "^6.1.21",
