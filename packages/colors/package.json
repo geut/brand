@@ -9,10 +9,6 @@
   "scripts": {
     "build": "babel ./src --out-dir ./dist/es --source-maps inline"
   },
-  "peerDependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
   "devDependencies": {
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.12.17",
@@ -20,9 +16,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
-    "babel-plugin-add-module-exports": "^1.0.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "babel-plugin-add-module-exports": "^1.0.4"
   },
   "browserslist": [
     "> 5%"
