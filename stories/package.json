@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run storybook",
     "storybook": "start-storybook -p 6006 --ci",
-    "storybook:export": "build-storybook -o ./out"
+    "export": "build-storybook -o ./out"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.17",
@@ -18,16 +18,17 @@
     "@geut/brand": "^1.1.1",
     "@geut/brand-colors": "^1.1.1",
     "@geut/brand-sher": "^1.1.1",
-    "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addons": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.1.21",
-    "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
     "babel-plugin-add-module-exports": "^1.0.4",
     "heroicons-react": "^1.3.0",
+    "postcss": "^8.2.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+    "tailwindcss": "^2.0.3"
   }
 }
