@@ -5,7 +5,7 @@ import { Iso, Logo } from '@geut/brand-sher'
 export default {
   title: 'SHER',
   decorators: [
-    story => (<div className='min-h-screen h-full p-5 bg-geutBlue-900 text-gray-200' >{story()}</div>)
+    story => (<div className='min-h-screen h-full bg-geutBlue-900 text-gray-200' >{story()}</div>)
   ]
 }
 
@@ -24,7 +24,7 @@ export const IsoAndLogo = () => {
 
 export const Isotype = () => {
   return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
+    <div className='flex flex-col items-start max-w-xs'>
       <Iso className='h-2'/>
       <Iso className='h-4 text-geutGreen-300'/>
       <Iso className='h-8 text-geutGreen-500'/>
@@ -40,7 +40,7 @@ export const Isotype = () => {
 
 export const Logotype = () => {
   return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
+    <div className='flex flex-col items-start max-w-xs'>
       <Logo className='h-2'/>
       <Logo className='h-4'/>
       <Logo className='h-8'/>
@@ -56,7 +56,7 @@ export const Logotype = () => {
 
 export const LogotypeMonochromatic = () => {
   return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
+    <div className='flex flex-col items-start max-w-xs'>
       <Logo mono className='h-2'/>
       <Logo mono className='h-4'/>
       <Logo mono className='h-8'/>
@@ -65,46 +65,6 @@ export const LogotypeMonochromatic = () => {
       <Logo mono className='h-16'/>
       <Logo mono className='h-32'/>
       <Logo mono className='h-64'/>
-    </div>
-  )
-}
-
-export const LogotypeOnBackground = () => {
-  return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-4'/>
-        <Logo mono className='h-4'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-8'/>
-        <Logo mono className='h-8'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-10'/>
-        <Logo mono className='h-10'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-12'/>
-        <Logo mono className='h-12'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-16'/>
-        <Logo mono className='h-16'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-32'/>
-        <Logo mono className='h-32'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-64'/>
-        <Logo mono className='h-64'/>
-      </div>
-      <div className='flex flex-row items-center'>
-        <Logo className='h-96'/>
-        <Logo mono className='h-96'/>
-      </div>
-
     </div>
   )
 }

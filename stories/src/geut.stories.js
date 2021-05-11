@@ -22,7 +22,7 @@ export const IsoAndLogo = () => {
 
 export const Isotype = () => {
   return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
+    <div className='flex flex-col items-start max-w-xs'>
       <Iso className='h-2'/>
       <Iso className='h-4 text-geutGreen-300'/>
       <Iso className='h-8 text-geutGreen-500'/>
@@ -38,7 +38,7 @@ export const Isotype = () => {
 
 export const Logotype = () => {
   return (
-    <div className='flex flex-col items-start max-w-xs border-l-2'>
+    <div className='flex flex-col items-start max-w-xs'>
       <Logo className='h-2'/>
       <Logo className='h-4'/>
       <Logo className='h-8'/>
