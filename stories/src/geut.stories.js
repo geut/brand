@@ -50,3 +50,13 @@ export const Logotype = () => {
     </div>
   )
 }
+
+export const LogotypeVariants = () => {
+  return (
+    <div className='flex items-start text-geutBlue-300'>
+      <Logo className='h-64'/>
+      <Logo className='h-64' mono/>
+      <Logo className='h-64' overlap/>
+    </div>
+  )
+}
