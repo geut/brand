@@ -1,7 +1,7 @@
 {
   "name": "@geut/brand",
   "description": "A Set of Small React Components of GEUT as a brand.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "dist/es/index.js",
   "files": [
     "dist"
@@ -10,7 +10,7 @@
     "build": "babel ./src --out-dir ./dist/es --source-maps inline"
   },
   "dependencies": {
-    "@geut/brand-colors": "^1.2.0"
+    "@geut/brand-colors": "^1.2.1"
   },
   "peerDependencies": {
     "react": "^17.0.1",
