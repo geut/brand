@@ -17,6 +17,7 @@
     "@babel/preset-react": "^7.12.13",
     "@geut/brand": "^1.2.1",
     "@geut/brand-colors": "^1.2.1",
+    "@geut/brand-seeder": "^1.2.1",
     "@geut/brand-sher": "^1.2.1",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-postcss": "^2.0.0",
