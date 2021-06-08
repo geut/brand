@@ -2,6 +2,9 @@
 import './tailwind.css'
 import { Iso, Logo } from '@geut/brand'
 
+import TShirtWhiteSrc from './images/t-shirt-white.png'
+import TShirtBlackSrc from './images/t-shirt-black.png'
+
 export default {
   title: 'GEUT',
   components: [Iso, Logo]
@@ -58,5 +61,40 @@ export const LogotypeVariants = () => {
       <Logo className='h-64' mono/>
       <Logo className='h-64' overlap/>
     </div>
+  )
+}
+
+export const LogotypeOnSurfaces = () => {
+  return (
+    <div className='flex'>
+      
+      <div className='relative inline-block'>
+        <img src={TShirtWhiteSrc} className='' style={{ width: 700, height: 700}}/>
+
+        <div className='absolute w-56 h-96 flex flex-row' style={{ top: 150, left: 220 }}>          
+          <div className='overflow-hidden flex-1 border-black border-0'>
+            <Logo className='text-gray-200' mono style={{ height: 380}}/> 
+          </div>
+          <div className='self-end flex-none w-12'>
+            <Iso className=' text-gray-300'  style={{ width: 100, transformOrigin: '0 -100%', transform: 'rotate(-90deg) translate3d(-30px, -10px, 0)' }}/> 
+          </div>
+        </div>
+      </div>
+
+
+      <div className='relative inline-block'>
+        <img src={TShirtBlackSrc} className='' style={{ width: 700, height: 700}} />
+        <div className='absolute w-56 h-96 flex flex-row' style={{ top: 150, left: 220 }}>          
+          <div className='overflow-hidden flex-1 border-black border-0'>
+            <Logo className='text-gray-800' mono style={{ height: 380}}/> 
+          </div>
+          <div className='self-end flex-none w-12'>
+            <Iso className=' text-gray-700'  style={{ width: 100, transformOrigin: '0 -100%', transform: 'rotate(-90deg) translate3d(-30px, -10px, 0)' }}/> 
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   )
 }
