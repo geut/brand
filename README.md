@@ -2,7 +2,7 @@
 
 ### Publishing to npm
 
-To publish new versions of all public packages to the beta channel:
+To publish new versions of all public packages to npm:
 
 ```bash
 yarn build
