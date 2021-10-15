@@ -1,12 +1,20 @@
 
 import './tailwind.css'
 import { Iso, Logo } from '@geut/brand-sher'
+import { green } from '@geut/brand-colors'
 
 export default {
   title: 'SHER',
   decorators: [
     story => (<div className='min-h-screen h-full bg-geutBlue-900 text-gray-200' >{story()}</div>)
-  ]
+  ],
+  parameters: {
+    docs: {
+      source: {
+        type: 'code'
+      }
+    }
+  }
 }
 
 export const IsoAndLogo = () => {
@@ -57,14 +65,29 @@ export const Logotype = () => {
 export const LogotypeMonochromatic = () => {
   return (
     <div className='flex flex-col items-start max-w-xs'>
-      <Logo mono className='h-2'/>
-      <Logo mono className='h-4'/>
-      <Logo mono className='h-8'/>
-      <Logo mono className='h-10'/>
-      <Logo mono className='h-12'/>
-      <Logo mono className='h-16'/>
-      <Logo mono className='h-32'/>
-      <Logo mono className='h-64'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-2'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-4'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-8'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-10'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-12'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-16'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-32'/>
+      <Logo mono strokeLinecap='square' strokeLinejoin='miter' strokeMiterlimit='10' strokeWidth='5' className='h-64'/>
+    </div>
+  )
+}
+
+export const LogotypeMonochromaticFilled = () => {
+  return (
+    <div className='flex flex-col items-start max-w-xs'>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-2'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-4'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-8'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-10'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-12'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-16'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-32'/>
+      <Logo mono fillColor={green[300]} strokeMiterlimit='10' strokeWidth='5' className='h-64'/>
     </div>
   )
 }
