@@ -11,3 +11,13 @@ export const green = {
   700: '#2A6C3E'
 }
 
+export const sherBlue = {
+  300: '#1F628C',
+  700: '#243773',
+  900: '#272B73'
+}
+
+export const sherGreen = {
+  300: '#0ABFBF',
+  500: '#087F8C'
+}
